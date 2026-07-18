@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joud Ali Almuzaini — Information Technology Student</title>
+<meta name="description" content="Personal portfolio of Joud Ali Almuzaini, an Information Technology student interested in data, AI, and cybersecurity.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== Nav ===== -->
+<header class="nav" id="top">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">J.A<span class="cursor">_</span></a>
+    <nav class="nav__links">
+      <a href="#about"><span class="tag">$</span> about</a>
+      <a href="#skills"><span class="tag">$</span> skills</a>
+      <a href="#projects"><span class="tag">$</span> projects</a>
+      <a href="#certificates"><span class="tag">$</span> certificates</a>
+      <a href="#contact"><span class="tag">$</span> contact</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== Hero ===== -->
+<section class="hero">
+  <div class="hero__inner">
+    <div class="terminal" role="img" aria-label="Terminal window showing an intro">
+      <div class="terminal__bar">
+        <span class="dot dot--red"></span>
+        <span class="dot dot--yellow"></span>
+        <span class="dot dot--green"></span>
+        <span class="terminal__title">guest@portfolio: ~</span>
+      </div>
+      <div class="terminal__body">
+        <p><span class="prompt">guest@site</span><span class="colon">:~$</span> whoami</p>
+        <p class="out" id="typedName"></p>
+        <p><span class="prompt">guest@site</span><span class="colon">:~$</span> cat interests.txt</p>
+        <p class="out" id="typedRole"></p>
+        <p><span class="prompt">guest@site</span><span class="colon">:~$</span> <span class="blink">▍</span></p>
+      </div>
+    </div>
+
+    <div class="hero__intro">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Joud Ali Almuzaini</h1>
+      <p class="hero__role">Information Technology Student</p>
+      <p class="hero__desc">
+        A motivated IT student with a strong interest in multiple technology fields, including
+        data, software development, AI, and cybersecurity. I'm passionate about learning,
+        improving my technical skills, and contributing to meaningful tech-driven solutions —
+        with a growing interest in digital transformation.
+      </p>
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View my projects</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-hint" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===== About ===== -->
+<section id="about" class="section">
+  <div class="section__head">
+    <span class="tag">$</span>
+    <h2>cat about.md</h2>
+  </div>
+  <div class="about__grid">
+    <div class="about__avatar" aria-hidden="true">
+      <svg viewBox="0 0 200 200" width="100%" height="100%">
+        <rect width="200" height="200" rx="16" fill="#131720"/>
+        <circle cx="100" cy="78" r="34" fill="#1E2530" stroke="#3ADBC1" stroke-width="2"/>
+        <path d="M40 176c8-40 40-58 60-58s52 18 60 58" fill="#1E2530" stroke="#3ADBC1" stroke-width="2"/>
+      </svg>
+    </div>
+    <div class="about__text">
+      <p>
+        I'm studying Information Technology at Qassim University, focused on designing and
+        implementing software and information systems that solve real-world problems. I'm
+        building my skills in programming, database management, networking, and cybersecurity,
+        with an emphasis on analyzing user requirements and delivering reliable, scalable
+        technical solutions.
+      </p>
+      <p>
+        I'm currently preparing for industry certifications and a career in IT and digital
+        transformation.
+      </p>
+      <ul class="about__facts">
+        <li><span>University</span>Qassim University — College of Computer</li>
+        <li><span>Major</span>Information Technology</li>
+        <li><span>Expected graduation</span>2026</li>
+        <li><span>GPA</span>4.50 / 5</li>
+        <li><span>Location</span>Saudi Arabia</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Skills ===== -->
+<section id="skills" class="section section--alt">
+  <div class="section__head">
+    <span class="tag">$</span>
+    <h2>ls skills/</h2>
+  </div>
+
+  <div class="skills__col">
+    <h3 class="skills__subtitle">Hard skills</h3>
+    <div class="tag-grid">
+      <span class="chip">Python</span>
+      <span class="chip">Java</span>
+      <span class="chip">C</span>
+      <span class="chip">SQL</span>
+      <span class="chip">MySQL</span>
+      <span class="chip">Power BI</span>
+      <span class="chip">Microsoft Office</span>
+      <span class="chip">HTML &amp; UI/UX basics</span>
+      <span class="chip">Basic cybersecurity</span>
+    </div>
+  </div>
+
+  <div class="skills__col">
+    <h3 class="skills__subtitle">Soft skills</h3>
+    <div class="tag-grid">
+      <span class="chip chip--alt">Problem-solving with attention to detail</span>
+      <span class="chip chip--alt">Teamwork &amp; collaboration</span>
+      <span class="chip chip--alt">Time management</span>
+      <span class="chip chip--alt">Communication skills</span>
+      <span class="chip chip--alt">Organizational ability</span>
+    </div>
+  </div>
+
+  <div class="skills__col">
+    <h3 class="skills__subtitle">Languages</h3>
+    <div class="tag-grid">
+      <span class="chip">Arabic — Native</span>
+      <span class="chip">English</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Projects ===== -->
+<section id="projects" class="section">
+  <div class="section__head">
+    <span class="tag">$</span>
+    <h2>ls projects/</h2>
+  </div>
+  <div class="projects__grid">
+    <article class="card">
+      <div class="card__top"><span class="card__index">project-01</span></div>
+      <h3>Android Application</h3>
+      <p>Built a full Android application using Android Studio, including UI design, screen
+      navigation, and real-time interaction between app components.</p>
+      <div class="card__tags"><span>Java</span><span>Android Studio</span><span>UI Design</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card__top"><span class="card__index">project-02</span></div>
+      <h3>Cloud Computing Security Project</h3>
+      <p>A research project for the Cryptography course explaining cloud security concepts,
+      identifying threats, and showing how cryptographic techniques protect cloud environments.</p>
+      <div class="card__tags"><span>Cryptography</span><span>Cloud Security</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card__top"><span class="card__index">project-03</span></div>
+      <h3>Restaurant Website</h3>
+      <p>Designed and developed a full restaurant website for the Web Development course,
+      building the UI layouts and site structure with a clean, responsive experience.</p>
+      <div class="card__tags"><span>HTML</span><span>UI/UX</span><span>Responsive Design</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card__top"><span class="card__index">project-04</span></div>
+      <h3>ONAS App — Software Engineering</h3>
+      <p>Developed the SRS &amp; SDD documentation for the ONAS application, including
+      requirement analysis, system documentation, and UML diagrams.</p>
+      <div class="card__tags"><span>SRS &amp; SDD</span><span>UML</span><span>Software Engineering</span></div>
+    </article>
+
+    <article class="card">
+      <div class="card__top"><span class="card__index">project-05</span></div>
+      <h3>Network Simulation — Cisco Packet Tracer</h3>
+      <p>Practiced building simple and complex networks, visualizing how a network works by
+      integrating switches, routers, and end nodes.</p>
+      <div class="card__tags"><span>Networking</span><span>Cisco Packet Tracer</span></div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== Certificates ===== -->
+<section id="certificates" class="section section--alt">
+  <div class="section__head">
+    <span class="tag">$</span>
+    <h2>ls certificates/</h2>
+  </div>
+  <ul class="cert__list">
+    <li><span class="tag">◆</span> Generative AI Learning Path — Completion Certificate</li>
+    <li><span class="tag">◆</span> IBM — Data Analysis with Python</li>
+    <li><span class="tag">◆</span> UC Davis — SQL for Data Analysis</li>
+    <li><span class="tag">◆</span> Oracle Database 12c: Administration</li>
+    <li><span class="tag">◆</span> IBM — Data Science</li>
+  </ul>
+</section>
+
+<!-- ===== Contact ===== -->
+<section id="contact" class="section">
+  <div class="section__head">
+    <span class="tag">$</span>
+    <h2>send --message</h2>
+  </div>
+  <div class="contact__wrap">
+    <p class="contact__lead">
+      Have a project idea or an internship opportunity? Reach out and I'll get back to you soon.
+    </p>
+    <div class="contact__links">
+      <a href="mailto:joud.a.almuzaini@gmail.com" class="contact__item">
+        <span class="tag">✉</span> joud.a.almuzaini@gmail.com
+      </a>
+      <a href="tel:+966558348921" class="contact__item">
+        <span class="tag">☎</span> +966 55 834 8921
+      </a>
+      <a href="https://www.linkedin.com/in/joud-almuzaini" target="_blank" rel="noopener" class="contact__item">
+        <span class="tag">◆</span> linkedin.com/in/joud-almuzaini
+      </a>
+      <a href="https://github.com/your-username" target="_blank" rel="noopener" class="contact__item">
+        <span class="tag">◆</span> github.com/your-username
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Joud Ali Almuzaini — Built with HTML, CSS &amp; JavaScript, no framework.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
